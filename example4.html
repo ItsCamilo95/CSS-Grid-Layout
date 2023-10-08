@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="example4.css">
+    <title>Grid</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <figure class="profile-info">
+                    <img src="https://lh3.googleusercontent.com/a/ACg8ocLNLdrI4CvL0iscU8k4FvHeBbKI1_kLh9KLxft0zDF8Oh1h=s288-c-no" alt="">
+                    <figcaption>
+                        Camilo Orozco
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="home">
+        <section class="home-info">
+            <h1>Grid-areas</h1>
+            <p>Veamos la distribución de una página normal como lo hemos estado manejando:</p>
+            <img src="img/ex2-5.jpg" alt="">
+            <div class="grid-layout">
+                <div class="box box1">Cabecera</div>
+                <div class="box box2">Menu</div>
+                <div class="box box3">Contenido</div>
+                <div class="box box4">Barra lateral</div>
+                <div class="box box5">Pie de página</div>
+            </div>
+            <br>
+            <p>Ahora tenemos unas cajas base sin ninguna distribución:</p>
+            <br>
+            <div class="grid-layout2">
+                <div class="box">Cabecera</div>
+                <div class="box">Menu</div>
+                <div class="box">Contenido</div>
+                <div class="box">Barra lateral</div>
+                <div class="box">Pie de página</div>
+            </div>
+            <br>
+            <h2>Ahora, usemos Grid templates areas:</h2>
+            <br>
+            <p>Primero indicamos como queremos la distribución, en este caso usaremos solo dos columnas, por eso "cabecera cabecera".</p>
+            <img src="img/ex2-6.jpg" alt="">
+            <br>
+            <p>Luego, indicamos que cajas serán los segmentos antes definidos:</p>
+            <img src="img/ex2-7.jpg" alt="">
+            <p>¡Ya estaría! Ahora tenemos un diseño responsivo y maquetado:</p>
+            <br>
+            <div class="grid-layout3">
+                <div class="box box11">Cabecera</div>
+                <div class="box box22">Menu</div>
+                <div class="box box33">Contenido</div>
+                <div class="box box44">Barra lateral</div>
+                <div class="box box55">Pie de página</div>
+            </div>
+            <br>
+        </section>
+        <div class="div-buttons">
+            <a href="example3.html">
+                <button class="control-button">Anterior!</button>
+            </a>
+            <a href="end.html">
+                <button class="control-button">Siguiente!</button>
+            </a>
+        </div>
+    </main>
+</body>
+</html>
