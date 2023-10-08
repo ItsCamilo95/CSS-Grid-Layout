@@ -19,7 +19,7 @@ body{
 
 .home{
     display: grid;
-    height: 92vh;
+    height: 91vh;
     place-items: center;
     position: relative;
 }
@@ -85,7 +85,7 @@ nav ul li:last-child a:hover{
 }
 
 .home-info ul{
-    margin: 15px 30px;
+    margin: 10px 30px;
 }
 
 .control-button{
